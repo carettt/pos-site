@@ -1,3 +1,3 @@
 # pos-site
 
-git push -u origin main
+Website for pos.js.
