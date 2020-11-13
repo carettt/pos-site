@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "serve": "^11.3.2",
     "styled-components": "^5.2.1",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "git add . && git push origin main",
+    "deploy": "git push origin main",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
