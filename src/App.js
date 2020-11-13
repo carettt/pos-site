@@ -20,7 +20,7 @@ const App = () => {
           <Burger open={open} setOpen={setOpen} />
           <Menu open={open} setOpen={setOpen} />
           {/*TODO*/}
-          <h1>pos.js is an easy to use, fast, and accurate Javascript library that serves as a physics engine for your project.</h1>
+          <h1>this is pos.js</h1>
           <button className="installBtn">Install pos.js</button>
         </div>
       </>
