@@ -14,8 +14,8 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${({ theme }) => theme.primaryDark};
-    color: ${({ theme }) => theme.primaryLight};
+    background: ${({ theme }) => theme.primaryLight};
+    color: ${({ theme }) => theme.primaryDark};
     height: 100vh;
     text-rendering: optimizeLegibility;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -46,17 +46,17 @@ export const GlobalStyles = createGlobalStyle`
     border-radius: 5px;
     text-transform: uppercase;
     font-size: rem;
-    background: ${({ theme }) => theme.primaryLight};
-    color: ${({ theme }) => theme.primaryDark};
+    background: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.primaryLight};
     font-weight: bolder;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   .installBtn:hover {
-    color: ${({ theme }) => theme.primaryLight};
-    background-color: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.primaryDark};
+    background-color: ${({ theme }) => theme.primaryLight};
     padding: 5px;
     border-style: solid;
     border-width: 5px;
-    border-color: ${({ theme }) => theme.primaryLight};
+    border-color: ${({ theme }) => theme.primaryDark};
   }
 `;

@@ -1,3 +1,14 @@
+.absolute-container {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+}
+
+.relative-container {
+  position: relative;
+  left: -50%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.HomeExample {
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+  z-index: 0;
 }

@@ -3,4 +3,5 @@ export { Menu } from './Menu/Menu';
 export { Home } from './Pages/Home';
 export { Install } from './Pages/Install';
 export { Documentation } from './Pages/Documentation';
-export { Contribute } from './Pages/Contribute' 
+export { Contribute } from './Pages/Contribute';
+export { HomeExample } from './Examples/HomeExample/HomeExample';
